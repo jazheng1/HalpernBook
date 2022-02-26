@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 2582920020480197042}
   - component: {fileID: 2582920020480197045}
   - component: {fileID: 2582920020480197044}
+  - component: {fileID: 2253136575511098317}
+  - component: {fileID: 53423473260273316}
   m_Layer: 6
   m_Name: PlayerObject
   m_TagString: Player
@@ -73,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -341643899
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 5012491988584609388, guid: 1f97561e9ad64cc40a3cf5ddad6cf95f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -118,7 +120,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0031034052, y: -0.06426512}
+  m_Offset: {x: 0.0019124746, y: -0.07695913}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -129,7 +131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6044938, y: 0.87146974}
+  m_Size: {x: 0.568228, y: 0.84608173}
   m_EdgeRadius: 0
 --- !u!50 &2582920020480197044
 Rigidbody2D:
@@ -152,3 +154,30 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2253136575511098317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2582920020480197041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c6ad4bd746843e4894073bbf273f36a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 0
+  maxHitPoints: 0
+--- !u!114 &53423473260273316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2582920020480197041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95702a18aed6574297a9b9ee2e7ec8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 3
