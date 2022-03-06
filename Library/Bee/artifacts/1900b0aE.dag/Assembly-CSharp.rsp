@@ -336,9 +336,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/MonoBehaviors/Character.cs"
+"Assets/Scripts/MonoBehaviors/Consumable.cs"
+"Assets/Scripts/MonoBehaviors/HealthBar.cs"
+"Assets/Scripts/MonoBehaviors/Inventory/Inventory.cs"
 "Assets/Scripts/MonoBehaviors/MovementController.cs"
 "Assets/Scripts/MonoBehaviors/Player.cs"
+"Assets/Scripts/MonoBehaviors/Slot.cs"
 "Assets/Scripts/RoundCameraPos.cs"
+"Assets/Scripts/ScriptableObjects/HitPoints.cs"
+"Assets/Scripts/ScriptableObjects/Item.cs"
 -langversion:8.0
 
 /deterministic

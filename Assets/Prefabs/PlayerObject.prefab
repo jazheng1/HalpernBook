@@ -153,7 +153,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &2253136575511098317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,8 +166,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c6ad4bd746843e4894073bbf273f36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 0
-  maxHitPoints: 0
+  hitPoints: {fileID: 11400000, guid: 6fc3c7b714921e0498d571e99a913271, type: 2}
+  maxHitPoints: 10
+  startingHitPoints: 6
+  healthBarPrefab: {fileID: 5773509084784020170, guid: f00128a7a3181024bb45ba7da143a7e8, type: 3}
+  inventoryPrefab: {fileID: 2880819097612154124, guid: f4f5dc229942e61459169de0374d9bef, type: 3}
 --- !u!114 &53423473260273316
 MonoBehaviour:
   m_ObjectHideFlags: 0
